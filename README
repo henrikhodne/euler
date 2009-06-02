@@ -1,0 +1,10 @@
+Run
+  ruby problem<num>.rb
+to see the description of a problem.
+
+Run
+  ruby problem<num>.rb --solution
+to see the description and solutions of a problem.
+
+
+This work is licensed under the Creative Commons Attribution-Share Alike 3.0 Norway License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/no/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA
