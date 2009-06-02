@@ -1,13 +1,11 @@
 require "project_euler"
 
-problem = Euler::Problem.new(6, <<DESCRIPTION
+problem = Euler::Problem.new(7, <<DESCRIPTION
 By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6^(th) prime is 13.
 
 What is the 10001^(st) prime number?
 DESCRIPTION
 )
-
-require "prime"
 
 problem.solve do
   prime_number = 0
@@ -19,5 +17,6 @@ problem.solve do
     end
     i += 2
   end
-  i
+  i   
+  end
 end
